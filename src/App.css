@@ -1,33 +1,170 @@
-.App {
+.button-wrapper{
+  height:4em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:lighter;
+  font-size:1.4em;
+  background-color:#e0e1e6;
+  color:#888888;
+  flex:1;
+  outline:1px solid #888888;
+
+  
+}
+
+#rock{
+
+  height:200px;
+  width:200px;
+  background-position: center center;
+  background-size: cover;
+  
+}
+#paper{
+
+  height:200px;
+  width:200px;
+  background-position: center center;
+  background-size: cover;
+  
+}
+#scisor{
+
+  height:200px;
+   width:200px;
+   background-position: center center;
+   background-size: cover;
+  
+}
+#lizard{
+ 
+  height:200px;
+  width:200px;
+  background-position: center center;
+  background-size: cover;
+}
+#spock{
+ 
+  height:200px;
+  width:200px;
+  background-position: center center;
+  background-size: cover;
+}
+.operator{
+  background-color:#fe9241;
+  color:white;
+  
+}
+
+#app{
+  display:flex;
+   flex-direction: column;
+  justify-content:center;
+  align-items:center;
+   flex-basis: 33.33%;
+  
+
+}
+#mainblock{
+
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  
+  width:100%;
+}
+#userpic{
+  
+
+   align-self: auto ; 
+}
+#scoreuser{
+   flex-direction: column;
+  flex-basis: 33.33%;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+   
+  font-weight:bold;
+  font-size:1.4em;
+  background-color:grey;
+  color:white;
+  padding:0.5em;
+  outline:1px solid #888888;
+
+}
+#scoreai{
+flex-direction: column;
+  flex-basis: 33.33%;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+   
+  font-weight:bold;
+  font-size:1.4em;
+  background-color:grey;
+  color:white;
+  padding:0.5em;
+  outline:1px solid #888888;
+  
+}
+#rule-button{
+  padding: 40px;
+}
+#calc-wrapper{
+  width:400px;
+  height:600px;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#row{
+  width:100%;
+  display:flex;
+}
+#display{
+  height:4em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bold;
+  font-size:1.4em;
+  background-color:grey;
+  color:white;
+  padding:0.5em;
+  outline:1px solid #888888;
+  
+  
+}
+#display2{
+  height:4em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bold;
+  font-size:1.4em;
+  background:grey;
+  color:black;
+  padding:0.5em;
+  outline:1px solid #888888;
+  
+  
+}
+#clearbtn{
+   height:4em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:lighter;
+  background-color:#c5c3cd;
+  color:black;
+  flex:1;
+  outline: 1px solid #888888;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
