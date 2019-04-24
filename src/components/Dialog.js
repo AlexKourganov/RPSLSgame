@@ -14,11 +14,11 @@ class Dialog extends Component{
         let dialog = (
            
              
-<div id="simpleModal" class="modal" ref={this.setWrapperRef}>
+<div id="simpleModal" class="modal" ref={this.setWrapperRef} >
 
 <div class="modal-content">
 <OutsideAlerter>
-    <div class="modal-header">
+    <div class="modal-header" >
             <span class="closeBtn" onClick={this.props.onClose}>&times;</span>
             <h2>Rules</h2>
     </div>
