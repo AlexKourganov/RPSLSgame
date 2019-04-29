@@ -291,7 +291,7 @@ addToInput = val =>{
           
           
         </div>
-      
+        
     )
   }
 

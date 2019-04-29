@@ -12,6 +12,13 @@
 
   
 }
+.button-wrapper:hover{
+  background-color:coral;
+  color:white;
+}
+#body{
+  background-color:#888888;
+}
 
 #rock{
 
@@ -66,17 +73,24 @@
   
 
 }
+html, body {
+  width: 100%;
+  height: 100%;
+}
 #mainblock{
 
   display:flex;
   flex-direction: row;
   justify-content:center;
-  
+  background-color:grey;
   width:100%;
+  
+ height: 100%;
 }
 #userpic{
   
-
+  
+ 
    align-self: auto ; 
 }
 #scoreuser{
